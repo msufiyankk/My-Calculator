@@ -22,11 +22,14 @@
 }
 .calc input{
     border-radius: 12px;
-    width: 270px;
+    width: 230px;
     margin-top: 15px;
     height: 4rem;
     background-color: rgb(29, 29, 29);
     cursor: default;
+    color: rgb(232, 232, 232);
+    padding: 0px 20px;
+    font-size: 2rem;
 }
 .input-btn{
     width: 280px;
