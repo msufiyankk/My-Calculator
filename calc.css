@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+.mycalc{
+    background-color: rgb(63, 66, 54);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calc{
+    width: 300px;
+    height: fit-content;
+    background-color: rgb(27, 42, 42);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 28px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.calc input{
+    border-radius: 12px;
+    width: 270px;
+    margin-top: 15px;
+    height: 4rem;
+    background-color: rgb(29, 29, 29);
+    cursor: default;
+}
+.input-btn{
+    width: 280px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+}
+button{
+    height: 3rem;
+    width: 3rem;
+    padding: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: rgb(150, 150, 150);
+    background-color: rgb(24, 24, 24);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    filter: brightness(1.2);
+    color: white;
+}
+button:active{
+    filter: brightness(1.4);
+
+}
+#eql{
+    height: 8rem;
+    border-radius: 50px;
+    grid-row:span 2;
+    background-color: rgb(51, 51, 224);
+}
+#eql:hover{
+    background-color: rgb(6, 48, 237);
+}
+.c{
+    color: rgb(51, 51, 224);
+}
+.c:hover{
+    color: rgb(0, 106, 255);
+}
